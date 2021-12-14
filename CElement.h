@@ -30,11 +30,3 @@ public :
 	void doSomething();
 
 };
-
-void CElement::doSomething()
-{
-	this->ObjectID = "CString";
-	this->Description = "string";
-	
-	return ;
-}

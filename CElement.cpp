@@ -9,3 +9,11 @@ CElement::~CElement()
 {
 	delete [] this->m_hThread;
 }
+
+void CElement::doSomething()
+{
+	this->ObjectID = "CString";
+	this->Description = "string";
+	
+	return ;
+}
